@@ -4,7 +4,7 @@ target 'forestAlertView_Example' do
   pod 'forestAlertView', :path => '../'
 
   target 'forestAlertView_Tests' do
-    inherit! :search_paths
+    pod 'forestAlertView', :path => '../'
 
     pod 'Specta'
   pod 'Expecta'

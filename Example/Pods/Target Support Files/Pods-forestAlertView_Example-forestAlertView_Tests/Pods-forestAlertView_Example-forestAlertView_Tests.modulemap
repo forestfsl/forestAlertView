@@ -1,0 +1,6 @@
+framework module Pods_forestAlertView_Example_forestAlertView_Tests {
+  umbrella header "Pods-forestAlertView_Example-forestAlertView_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module forestAlertView {
+  umbrella header "forestAlertView-umbrella.h"
+
+  export *
+  module * { export * }
+}
