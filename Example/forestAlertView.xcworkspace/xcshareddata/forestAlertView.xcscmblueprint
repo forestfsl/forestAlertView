@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "9E241326088EB09AAA906708253CE08B944B74D2",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "A9EF20A1488D9D150970EBAA20089A2E0D337B77" : 0,
+    "9E241326088EB09AAA906708253CE08B944B74D2" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "9C287872-BA96-4695-972B-F6207A723D72",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "A9EF20A1488D9D150970EBAA20089A2E0D337B77" : "",
+    "9E241326088EB09AAA906708253CE08B944B74D2" : "forestAlertView\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "forestAlertView",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Example\/forestAlertView.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/forestfsl\/forestAlertView.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9E241326088EB09AAA906708253CE08B944B74D2"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/forestfsl\/SLAlertView.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A9EF20A1488D9D150970EBAA20089A2E0D337B77"
+    }
+  ]
+}

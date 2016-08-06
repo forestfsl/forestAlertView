@@ -9,6 +9,21 @@
 /* Begin PBXBuildFile section */
 		016CFE2C943D14CC45D9F4F7EAF5F83E /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D87B9B77C0C44AA9110F83844B1744F /* UIImage+Compare.m */; };
 		022DD32C1475CD07C5D35FD04E7B4799 /* SPTExcludeGlobalBeforeAfterEach.h in Headers */ = {isa = PBXBuildFile; fileRef = 5514D13D44B78009D4AFEEDFA4E4FDBB /* SPTExcludeGlobalBeforeAfterEach.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		071BA83F1D55DDA4005FABF0 /* JKAnaliseDatabase.h in Headers */ = {isa = PBXBuildFile; fileRef = 071BA8301D55DDA4005FABF0 /* JKAnaliseDatabase.h */; };
+		071BA8401D55DDA4005FABF0 /* JKAnaliseDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 071BA8311D55DDA4005FABF0 /* JKAnaliseDatabase.m */; };
+		071BA8411D55DDA4005FABF0 /* JKAnalisParaModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 071BA8321D55DDA4005FABF0 /* JKAnalisParaModel.h */; };
+		071BA8421D55DDA4005FABF0 /* JKAnalisParaModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 071BA8331D55DDA4005FABF0 /* JKAnalisParaModel.m */; };
+		071BA8431D55DDA4005FABF0 /* JKAnalytics.h in Headers */ = {isa = PBXBuildFile; fileRef = 071BA8341D55DDA4005FABF0 /* JKAnalytics.h */; };
+		071BA8441D55DDA4005FABF0 /* JKAnalytics.m in Sources */ = {isa = PBXBuildFile; fileRef = 071BA8351D55DDA4005FABF0 /* JKAnalytics.m */; };
+		071BA8451D55DDA4005FABF0 /* JKJsonHelp.h in Headers */ = {isa = PBXBuildFile; fileRef = 071BA8361D55DDA4005FABF0 /* JKJsonHelp.h */; };
+		071BA8461D55DDA4005FABF0 /* JKJsonHelp.m in Sources */ = {isa = PBXBuildFile; fileRef = 071BA8371D55DDA4005FABF0 /* JKJsonHelp.m */; };
+		071BA8471D55DDA4005FABF0 /* JKNetWorkEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = 071BA8381D55DDA4005FABF0 /* JKNetWorkEngine.h */; };
+		071BA8481D55DDA4005FABF0 /* JKNetWorkEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 071BA8391D55DDA4005FABF0 /* JKNetWorkEngine.m */; };
+		071BA8491D55DDA4005FABF0 /* JKNetWorkEngine+JKAnalytics.h in Headers */ = {isa = PBXBuildFile; fileRef = 071BA83A1D55DDA4005FABF0 /* JKNetWorkEngine+JKAnalytics.h */; };
+		071BA84A1D55DDA4005FABF0 /* JKNetWorkEngine+JKAnalytics.m in Sources */ = {isa = PBXBuildFile; fileRef = 071BA83B1D55DDA4005FABF0 /* JKNetWorkEngine+JKAnalytics.m */; };
+		071BA84B1D55DDA4005FABF0 /* JKSystemparamHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 071BA83C1D55DDA4005FABF0 /* JKSystemparamHelper.h */; };
+		071BA84C1D55DDA4005FABF0 /* JKSystemparamHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 071BA83D1D55DDA4005FABF0 /* JKSystemparamHelper.m */; };
+		071BA84D1D55DDA4005FABF0 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 071BA83E1D55DDA4005FABF0 /* ReplaceMe.m */; };
 		0C6FF91EB1F0391ED75DC72D31D159EF /* EXPMatchers+beTruthy.m in Sources */ = {isa = PBXBuildFile; fileRef = 19D7E0FEC362BEC211648D104511BD5C /* EXPMatchers+beTruthy.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		0D16B556212D317A0D4FEB71E102E207 /* EXPMatchers+beLessThan.h in Headers */ = {isa = PBXBuildFile; fileRef = F2D3A79E58CE53867199D68A7690BE0C /* EXPMatchers+beLessThan.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0EBFA5FBE4953A83B677CE2A75746761 /* EXPMatchers+beLessThan.m in Sources */ = {isa = PBXBuildFile; fileRef = 58335D3E2909BF5D62C81864F19B78F1 /* EXPMatchers+beLessThan.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -226,6 +241,21 @@
 /* Begin PBXFileReference section */
 		0160D7EDEB19856BC505CA9E9075EC06 /* SPTGlobalBeforeAfterEach.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTGlobalBeforeAfterEach.h; path = Specta/Specta/SPTGlobalBeforeAfterEach.h; sourceTree = "<group>"; };
 		064D45869BC2F37AD341CBDE9F822387 /* NSValue+Expecta.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSValue+Expecta.m"; path = "Expecta/NSValue+Expecta.m"; sourceTree = "<group>"; };
+		071BA8301D55DDA4005FABF0 /* JKAnaliseDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKAnaliseDatabase.h; sourceTree = "<group>"; };
+		071BA8311D55DDA4005FABF0 /* JKAnaliseDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKAnaliseDatabase.m; sourceTree = "<group>"; };
+		071BA8321D55DDA4005FABF0 /* JKAnalisParaModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKAnalisParaModel.h; sourceTree = "<group>"; };
+		071BA8331D55DDA4005FABF0 /* JKAnalisParaModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKAnalisParaModel.m; sourceTree = "<group>"; };
+		071BA8341D55DDA4005FABF0 /* JKAnalytics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKAnalytics.h; sourceTree = "<group>"; };
+		071BA8351D55DDA4005FABF0 /* JKAnalytics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKAnalytics.m; sourceTree = "<group>"; };
+		071BA8361D55DDA4005FABF0 /* JKJsonHelp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKJsonHelp.h; sourceTree = "<group>"; };
+		071BA8371D55DDA4005FABF0 /* JKJsonHelp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKJsonHelp.m; sourceTree = "<group>"; };
+		071BA8381D55DDA4005FABF0 /* JKNetWorkEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKNetWorkEngine.h; sourceTree = "<group>"; };
+		071BA8391D55DDA4005FABF0 /* JKNetWorkEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKNetWorkEngine.m; sourceTree = "<group>"; };
+		071BA83A1D55DDA4005FABF0 /* JKNetWorkEngine+JKAnalytics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JKNetWorkEngine+JKAnalytics.h"; sourceTree = "<group>"; };
+		071BA83B1D55DDA4005FABF0 /* JKNetWorkEngine+JKAnalytics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JKNetWorkEngine+JKAnalytics.m"; sourceTree = "<group>"; };
+		071BA83C1D55DDA4005FABF0 /* JKSystemparamHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKSystemparamHelper.h; sourceTree = "<group>"; };
+		071BA83D1D55DDA4005FABF0 /* JKSystemparamHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKSystemparamHelper.m; sourceTree = "<group>"; };
+		071BA83E1D55DDA4005FABF0 /* ReplaceMe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
 		0782314CEFBB6F81294F8002EBFB578E /* EXPMatchers+equal.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+equal.m"; path = "Expecta/Matchers/EXPMatchers+equal.m"; sourceTree = "<group>"; };
 		07BC24DA84E3F15453DEC37314546A77 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		08798D01031CB2E6F415FB1A83342463 /* Expecta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Expecta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -846,6 +876,21 @@
 		F60B8CCBE20823D535E2ADCC0DB36244 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				071BA8301D55DDA4005FABF0 /* JKAnaliseDatabase.h */,
+				071BA8311D55DDA4005FABF0 /* JKAnaliseDatabase.m */,
+				071BA8321D55DDA4005FABF0 /* JKAnalisParaModel.h */,
+				071BA8331D55DDA4005FABF0 /* JKAnalisParaModel.m */,
+				071BA8341D55DDA4005FABF0 /* JKAnalytics.h */,
+				071BA8351D55DDA4005FABF0 /* JKAnalytics.m */,
+				071BA8361D55DDA4005FABF0 /* JKJsonHelp.h */,
+				071BA8371D55DDA4005FABF0 /* JKJsonHelp.m */,
+				071BA8381D55DDA4005FABF0 /* JKNetWorkEngine.h */,
+				071BA8391D55DDA4005FABF0 /* JKNetWorkEngine.m */,
+				071BA83A1D55DDA4005FABF0 /* JKNetWorkEngine+JKAnalytics.h */,
+				071BA83B1D55DDA4005FABF0 /* JKNetWorkEngine+JKAnalytics.m */,
+				071BA83C1D55DDA4005FABF0 /* JKSystemparamHelper.h */,
+				071BA83D1D55DDA4005FABF0 /* JKSystemparamHelper.m */,
+				071BA83E1D55DDA4005FABF0 /* ReplaceMe.m */,
 				8C18BA92B5727FDCFBFF815BA8430F46 /* ReplaceMe.m */,
 			);
 			path = Classes;
@@ -916,6 +961,7 @@
 			files = (
 				3B5B7495707BF7133B9FB3F834045611 /* EXPBlockDefinedMatcher.h in Headers */,
 				5EA7043FE10E75D02F3C3052AF8B8318 /* EXPDefines.h in Headers */,
+				071BA83F1D55DDA4005FABF0 /* JKAnaliseDatabase.h in Headers */,
 				2F427490ACABC4408D57CC0592276678 /* EXPDoubleTuple.h in Headers */,
 				837B593D7C1D01B4EA400247309D6AB0 /* Expecta-umbrella.h in Headers */,
 				E1EC4532663CA75DE5BD00CB0A56814D /* Expecta.h in Headers */,
@@ -923,17 +969,22 @@
 				AFFC8900E52BBEC72059334132F3A8F3 /* ExpectaSupport.h in Headers */,
 				67459AD239EF669A365519E06B45DCFE /* EXPExpect.h in Headers */,
 				6E1D978790705E137FDE439AA68DD3AA /* EXPFloatTuple.h in Headers */,
+				071BA8431D55DDA4005FABF0 /* JKAnalytics.h in Headers */,
 				65BC31095CCDFC80CBF6BBA843751F23 /* EXPMatcher.h in Headers */,
 				8C8C1B0D83FE6A4352F15154DB16372C /* EXPMatcherHelpers.h in Headers */,
 				AF1F46668D4591602887998C6E9C10AD /* EXPMatchers+beCloseTo.h in Headers */,
 				F41209A94070904A00BDF24ACB6336B6 /* EXPMatchers+beFalsy.h in Headers */,
 				FD2D4497BC41412128C2D87C1BDE7398 /* EXPMatchers+beginWith.h in Headers */,
+				071BA8491D55DDA4005FABF0 /* JKNetWorkEngine+JKAnalytics.h in Headers */,
 				6EFC63A5CED45BB39FC79D87F2C47D6B /* EXPMatchers+beGreaterThan.h in Headers */,
 				372F7A9CCE59CE86316CF436F832A3FC /* EXPMatchers+beGreaterThanOrEqualTo.h in Headers */,
+				071BA8411D55DDA4005FABF0 /* JKAnalisParaModel.h in Headers */,
 				E0AAF49134A0505DF00E20E7B62087E1 /* EXPMatchers+beIdenticalTo.h in Headers */,
 				34B6E9A30603BEBBD87BA535B7D384CA /* EXPMatchers+beInstanceOf.h in Headers */,
+				071BA84B1D55DDA4005FABF0 /* JKSystemparamHelper.h in Headers */,
 				131532787AD40BE1F35DF288D2E6FFD7 /* EXPMatchers+beInTheRangeOf.h in Headers */,
 				79558B1F97ABE4AB8942DC18BEBD4B82 /* EXPMatchers+beKindOf.h in Headers */,
+				071BA8471D55DDA4005FABF0 /* JKNetWorkEngine.h in Headers */,
 				0D16B556212D317A0D4FEB71E102E207 /* EXPMatchers+beLessThan.h in Headers */,
 				37A2D0F8493469EF2495FC689440F079 /* EXPMatchers+beLessThanOrEqualTo.h in Headers */,
 				E735386085CE344F6A01178CF4763852 /* EXPMatchers+beNil.h in Headers */,
@@ -949,6 +1000,7 @@
 				9B2E761A064459F77EA9870BEF03ACC3 /* EXPMatchers+postNotification.h in Headers */,
 				46137F5CC368BF38BAF0D0AF81DD8FFE /* EXPMatchers+raise.h in Headers */,
 				11C1AEB289C1EB80089349B71F09D04B /* EXPMatchers+raiseWithReason.h in Headers */,
+				071BA8451D55DDA4005FABF0 /* JKJsonHelp.h in Headers */,
 				260BC7EED9289AF321A6F791964CE472 /* EXPMatchers+respondTo.h in Headers */,
 				85E31076D5530AEEB45ACF16B2B8A983 /* EXPMatchers.h in Headers */,
 				51DDDB0FB4899757CF6A826B531B940D /* EXPUnsupportedObject.h in Headers */,
@@ -1111,7 +1163,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0700;
-				LastUpgradeCheck = 0700;
+				LastUpgradeCheck = 0720;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -1203,8 +1255,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B2D4A621D3DA971A474776AF36BB073 /* EXPBlockDefinedMatcher.m in Sources */,
+				071BA8401D55DDA4005FABF0 /* JKAnaliseDatabase.m in Sources */,
 				BC55C8365AEFF8217F6A567607754854 /* EXPDoubleTuple.m in Sources */,
 				204D694B03BFF3B244A6AB73FACFFC43 /* Expecta-dummy.m in Sources */,
+				071BA8421D55DDA4005FABF0 /* JKAnalisParaModel.m in Sources */,
 				94C47C87E397972CE98F75929F3B706C /* ExpectaObject.m in Sources */,
 				4BBCBB9D8EF0B241A4A4FE4982985481 /* ExpectaSupport.m in Sources */,
 				805E425BBEF7A6133E32E1D30A073010 /* EXPExpect.m in Sources */,
@@ -1213,6 +1267,7 @@
 				BA12B131F10BCE3BE6E9A02FC908FE9D /* EXPMatchers+beCloseTo.m in Sources */,
 				17572374B2AE183C6347C41E8DF8E579 /* EXPMatchers+beFalsy.m in Sources */,
 				F12D57414A73406831CC032A7170DBFF /* EXPMatchers+beginWith.m in Sources */,
+				071BA84C1D55DDA4005FABF0 /* JKSystemparamHelper.m in Sources */,
 				1312A7D381C51428CF481E33E3D37901 /* EXPMatchers+beGreaterThan.m in Sources */,
 				1B0389CD88AA949B34DC7269030FEC6F /* EXPMatchers+beGreaterThanOrEqualTo.m in Sources */,
 				66A27898E989A3FA5C15AA671C4536F0 /* EXPMatchers+beIdenticalTo.m in Sources */,
@@ -1222,19 +1277,24 @@
 				0EBFA5FBE4953A83B677CE2A75746761 /* EXPMatchers+beLessThan.m in Sources */,
 				D83677C54D2226C67886A525B0B46FBE /* EXPMatchers+beLessThanOrEqualTo.m in Sources */,
 				2C0A8737FDB9B9C6A6BDF437FD11334C /* EXPMatchers+beNil.m in Sources */,
+				071BA84D1D55DDA4005FABF0 /* ReplaceMe.m in Sources */,
 				BEFFE9FFE52E9A0833A7D2D8FB67EB4D /* EXPMatchers+beSubclassOf.m in Sources */,
+				071BA8461D55DDA4005FABF0 /* JKJsonHelp.m in Sources */,
 				6F278423C8AE1DA47F35E374BB5B91EC /* EXPMatchers+beSupersetOf.m in Sources */,
 				0C6FF91EB1F0391ED75DC72D31D159EF /* EXPMatchers+beTruthy.m in Sources */,
 				DB30F82FB1BE083D9471B965FB500CA2 /* EXPMatchers+conformTo.m in Sources */,
 				FC20596ABFE14A61F171A29FD03275E7 /* EXPMatchers+contain.m in Sources */,
+				071BA84A1D55DDA4005FABF0 /* JKNetWorkEngine+JKAnalytics.m in Sources */,
 				918E06480F28F27361B19D19432F8538 /* EXPMatchers+endWith.m in Sources */,
 				1AB3304B6884F626BC54150AC7565E18 /* EXPMatchers+equal.m in Sources */,
 				403292D82DA62291204BF59524BC4EDB /* EXPMatchers+haveCountOf.m in Sources */,
 				FC45858927D3B6A0F922C4B697B04A38 /* EXPMatchers+match.m in Sources */,
 				931D410B9F8ACB935883DF8C59F9C93E /* EXPMatchers+postNotification.m in Sources */,
+				071BA8481D55DDA4005FABF0 /* JKNetWorkEngine.m in Sources */,
 				2CFE2898496C1C7096DB8DA43AF19103 /* EXPMatchers+raise.m in Sources */,
 				FE8E34356D24F6759A8B010ED2F5707B /* EXPMatchers+raiseWithReason.m in Sources */,
 				E0A077DFB064B79685B810CCEFB2F1EF /* EXPMatchers+respondTo.m in Sources */,
+				071BA8441D55DDA4005FABF0 /* JKAnalytics.m in Sources */,
 				EF6497EE123F6BC0C1B09717437C5908 /* EXPUnsupportedObject.m in Sources */,
 				B84431CF8C64F363A334AA7089F6C134 /* NSValue+Expecta.m in Sources */,
 			);
@@ -1335,7 +1395,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 				VALIDATE_PRODUCT = YES;
@@ -1360,6 +1420,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Expecta/Expecta.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = Expecta;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -1387,6 +1448,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Specta/Specta.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = Specta;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -1414,6 +1476,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/forestAlertView/forestAlertView.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = forestAlertView;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -1441,6 +1504,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Expecta/Expecta.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = Expecta;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -1468,6 +1532,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -1482,7 +1547,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
@@ -1510,6 +1575,7 @@
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = Pods_forestAlertView_Example_forestAlertView_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -1537,6 +1603,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Expecta+Snapshots/Expecta+Snapshots.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = Expecta_Snapshots;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -1567,6 +1634,7 @@
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = Pods_forestAlertView_Example_forestAlertView_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -1598,6 +1666,7 @@
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = Pods_forestAlertView_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -1625,6 +1694,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/forestAlertView/forestAlertView.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = forestAlertView;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -1652,6 +1722,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = FBSnapshotTestCase;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -1680,6 +1751,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Expecta+Snapshots/Expecta+Snapshots.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = Expecta_Snapshots;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -1707,6 +1779,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = FBSnapshotTestCase;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -1737,6 +1810,7 @@
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = Pods_forestAlertView_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -1764,6 +1838,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Specta/Specta.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = Specta;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
